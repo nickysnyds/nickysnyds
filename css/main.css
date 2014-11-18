@@ -1,0 +1,269 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  padding: 20px;
+  padding-right: 50px;
+  width: 100%;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.pull-right {
+margin-right: -40px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.jumbotron .container a {
+  box-shadow:
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  top: 500px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  color: #000;
+}
+
+#uc {
+  background-image: url('/images/construction.jpg');
+}
+
+/*HOMEPAGE-START*/
+
+#homepage {
+  background-image:url('/images/fallwinter.jpg');
+  opacity: 0.6;
+}
+
+#header {
+  position: absolute;
+  top:175px;
+  left: 120px;
+}
+
+#header h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#header p {
+  font-size: 25px;
+}
+
+#header #contactbody {
+  outline-color: white;
+}
+
+/*HOMEPAGE-END*/
+
+/*EXPERIENCE-START*/
+
+#experience {
+  background-image:url('/images/expwall.jpg');
+  opacity: 0.6;
+}
+
+#experiencebody {
+  text-align: center;
+}
+
+#experiencebody img {
+  max-width: 200px;
+  max-height: 100px;
+  display: inline-flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*EXPERIENCE-END*/
+
+/*EDUCATION-START*/
+
+#education {
+  background-image:url('/images/UCSB-from-air.jpg');
+  opacity: 0.6;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#education h1 {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  left: 50%;
+  margin-left: -200px;
+  height: 100px;
+  top: 42.5%;
+  margin-top: -50px;
+  font-size: 9em;
+  color: #fff;
+  text-shadow: 2px 1px 2px #000;
+}
+
+#ucsb {
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+}
+
+/*EDUCATION-END*/
+/*HOBBIES-START*/
+
+#hockey {
+  background-image: url('/images/doughty.jpg');
+}
+
+#surfing {
+  background-image: url('/images/undersurf.jpg');
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#snow {
+  background-image: url('/images/snow.jpg');
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#guitar {
+  background-image: url('/images/acousticguitar.jpg');
+  position: relative;
+  margin-bottom: 0px;
+}
+
+
+
+/*HOBBIES-END*/
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.whatever img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 20px;
+}
+
+.container {
+  width: 100%;
+  padding-left: 100px;
+}
+
+/*CONTACT-START*/
+
+#mypic {
+
+}
+
+#contactbody {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  float: left;
+}
+
+/*CONTACT-END*/
+
+/*FOOTER-START*/
+
+.social-nav {
+  display: inline-flex;
+  list-style: none;
+  margin-left: -3%;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+.social-nav li {
+  padding: 10px;
+}
+
+body section.footer-links {
+  margin-left: 10%;
+  padding-top: 20px;
+}
+
+.footer-links li.subfooter {
+  display: inline-block;
+  width: 19.5%;
+  vertical-align: top;
+}
+
+.subfooter .title {
+  font-weight: bold;
+}
+
+.subfooter a{
+  color: #5a5a5a;
+}
+
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+ul.footer-menu {
+  padding: 0;
+}
+
+.footer-social {
+  position: absolute;
+  margin-left: 71%;
+  list-style-type: none;
+  margin-bottom: 50px;
+  width: 150px;
+}
+
+.footer-social li {
+  float: left;
+  padding: 6%;
+}
+
+/*FOOTER-END*/
+
+
+
